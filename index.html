@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>New Year's in New York</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" charset="utf-8" defer></script>
+    <script src="panelsnap.js" defer></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          new PanelSnap();
+        });
+    </script>
+  </head>
+
+  <body class="background">
+
+
+<section>
+  <div class="text">
+    Welcome to our interactive sound story!
+    Hover over the images to listen to the parts of the story!
+              The adventure starts as you scroll down !!
+  </div>
+
+  <!-- main map (index) -->
+
+  <img src="map.jpg" class="mainmap">
+</section>
+      <!-- abu dhabi airport (ad) -->
+        <!-- <div>
+          <audio id="piano" controls loop>
+              <source src="nyc.mp3" type="audio/mpeg">
+                  Nah fam that doesn't work :(
+          </audio>
+        </div>
+          <img src="ADairport.png" class="airport"> -->
+<section>
+
+
+          <!-- abu dhabi audio (ad) -->
+          <audio id="intro">
+              <source src="intro.mp3" type="audio/mpeg">
+                  Nah fam that doesn't work :(
+          </audio>
+
+          <!-- abu dhabi pic (ad) -->
+          <div class="container">
+            <div class="box" id="sound">
+                <img src="airport.jpg" class="airport">
+            </div>
+          </div>
+
+</section>
+
+      <section>
+              <!-- paris audio (paris) -->
+              <audio id="paris" >
+                  <source src="paris.mp3" type="audio/mpeg">
+                      Nah fam that doesn't work :(
+              </audio>
+
+              <!-- paris montage (paris) -->
+              <div class="container">
+                <div class="box" id="montage">
+                  <video src="pariss.mov" autoplay class="vid" class="box" > </video>
+                </div>
+              </div>
+
+</section>
+
+
+  <section>
+                <!-- nyc audio (nyc) -->
+                    <audio id="piano" >
+                        <source src="nyc.mp3" type="audio/mpeg">
+                            Nah fam that doesn't work :(
+                    </audio>
+
+                      <!-- nyc pic (nyc) -->
+                      <div class="container">
+                        <div class="box" id="interactive" >
+                          <img src="nye.jpg" class="nyc">
+                        </div>
+                      </div>
+
+</section>
+
+<section>
+
+
+                          <div class="fin">
+                            Fin.
+                          </div>
+
+</section>
+
+
+  </body>
+</html>

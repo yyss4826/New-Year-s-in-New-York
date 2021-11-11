@@ -1,0 +1,82 @@
+body{
+    /* background-size: cover; */
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+  
+  }
+  
+  .background{
+    background-color: lavender;
+  }
+  
+  .ad{
+    background-color: antiquewhite;
+  }
+  
+  .text{
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .mainmap{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-self: center;
+    padding-left: 10px;
+    padding-bottom:200px;
+  }
+  
+  .airport{
+    width:70vw;
+    height: 70vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 90px;
+  }
+  
+  
+  .vid{
+    /* width: 98vw;
+    height: 97vh; */
+    width:70vw;
+    height: 70vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+  }
+  
+  .nyc{
+    /* width: 98vw;
+    height: 97vh; */
+    width:70vw;
+    height: 70vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 90px;
+  }
+  
+  .container{
+    display: grid;
+    width: 100vw;
+    height:100vh;
+  }
+  
+  .box{
+    /* align-self: center; */
+    width: 100%;
+    height: 99%;
+    border: none;
+    justify-self: center;
+    display: flex;
+    align-self: flex-start;
+  }
+  
+  
+  .fin{
+    font-size: 50px;
+    text-align: center;
+  }
